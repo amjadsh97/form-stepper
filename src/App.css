@@ -32,9 +32,11 @@ p.step-name {font-size: 14px;text-transform: uppercase;margin-top: 6px;font-weig
 h1.form-title {color: var(--marine-blue);font-weight: 900;font-size: clamp(24px, 4vw, 32px);margin-bottom: 20px;}
 p.form-desc {color: var(--Cool-gray);font-size: clamp(12px, 4vw, 16px);}
 .action-buttons {margin-top: auto;display: flex;justify-content: space-between;max-width: 450px;}
-button.action-button {padding: 15px 25px;font-weight: 600;text-transform: capitalize;}
+button.action-button {transition: 0.4s;padding: 15px 25px;font-weight: 600;text-transform: capitalize;}
 button.action-button.next-button {background: var(--marine-blue);color: white;font-size: 16px;border-radius: 10px;}
 button.action-button.back-button {padding-inline: 0;color: var(--marine-blue);}
+button.action-button.next-button:hover {background: #174A88;}
+
 .form .step-1 > * + * {margin-top: 20px;}
 .form .input-row {display: flex;align-items: center;justify-content: space-between;}
 button.action-button.confirm-button {background: var(--purplish-blue);}

@@ -48,7 +48,7 @@ const StepWrapper = () => {
 
 	const validationSchema = Yup.object({
 		name: Yup.string().required('Name is required'),
-		email: Yup.string().email('Invalid email address').required('Email is required'),
+		email: Yup.string().email('The email address is not formatted correctly').required('Email is required'),
 		phone: Yup.string().required('phone is required')
 	});
 
